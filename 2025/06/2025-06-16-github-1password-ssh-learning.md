@@ -24,4 +24,44 @@
 
 ---
 
-> 这段时间的学习让开发流程更自动化，身份认证更安全，工程协作更规范，为后续的高效开发和项目维护打下坚实基础。
+# 2025-06-16 -2- WSL 安装与网络优化实践记录
+
+今天通过 ChatGPT 的指引，完成了 Windows 子系统 WSL 的手动安装与网络配置优化，构建了初步开发环境并解决 GitHub 连接缓慢的问题。
+
+---
+
+## ✅ 安装 WSL 并导入 Ubuntu 22.04
+
+* 没有使用 Microsoft Store，而是手动下载Ubuntu安装包；
+* 利用 `wsl --import` 命令自定义安装路径并导入 Ubuntu 22.04：
+
+  ```bash
+  wsl --import Ubuntu-22.04 D:\WSL\Ubuntu2204 ubuntu2204.appx
+  ```
+* 创建新用户，完成基本初始化；
+* 参考资料：[Spencer Woo 的博客指南](https://dowww.spencerwoo.com/)
+
+---
+
+## 🛠 安装 zsh 与 Oh My Zsh
+
+* 安装 zsh 后使用 `chsh -s $(which zsh)` 设置默认 shell；
+* 安装 [Oh My Zsh](https://ohmyz.sh/) 以提升交互体验；
+* 尚未补充插件，计划后续引入 `zsh-autosuggestions` 与 `zsh-syntax-highlighting`。
+
+---
+
+## 🌐 解决 GitHub 网络访问问题（WSL2 网络优化）
+
+* 遇到 GitHub 链接缓慢问题；
+* 参考资料：[lmk123 博客 Issue #89](https://github.com/lmk123/blog/issues/89)；
+* 没有采用破坏性做法（如 `sudo rm /etc/resolv.conf`）；
+* 而是通过设置 WSL 网络为“镜像宿主机（mirrored）”方式，自动继承 Windows 的 DNS；
+
+---
+
+## 📌 总结
+
+* 搭建了一个干净且受控的 Ubuntu 开发环境；
+* 网络设置完成代理，设置镜像仓库等；
+* 下一步计划补充命令行工具和 Git 配置，逐步打磨 WSL 使用体验。
