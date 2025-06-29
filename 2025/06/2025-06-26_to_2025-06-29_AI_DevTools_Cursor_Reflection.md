@@ -4,7 +4,7 @@ date: 2025‑06‑29
 description: AI 工具演进趋势、Cursor + Claude Code 实战探索、系统工具精简、复盘机制建立与认知调节
 ---
 
-> **时间窗口**：2025‑06‑26 00:00 — 2025‑06‑29 18:00  
+> **时间窗口**：2025‑06‑26 00:00 — 2025‑06‑29 19:00  
 > **本期主题**：工具升级 + 自我洞察
 
 ---
@@ -28,15 +28,15 @@ description: AI 工具演进趋势、Cursor + Claude Code 实战探索、系统�
 ## 2. 效率工具尝试与切换
 
 ### 2.1 RSS 工具替换尝试
-- 长期使用 inoreader，尝试切换到 `follow.it`，体验更轻量、可定制投递方式
+- 长期使用 inoreader，尝试切换到 `follow`，体验更轻量、可定制投递方式
 
 ### 2.2 推荐工具初探
 | 工具 | 用途 | 状态 |
 |------|------|------|
-| Excalidraw | 手绘草图 | 准备试用 |
-| Monica | 人脉关系管理 | 初步了解 |
+| Excalidraw | 手绘草图 | 初步了解 |
+| Monica | Chrome AI 插件 | 初步了解 |
 | Mermaid | 结构图表达语言 | 与 Claude 搭配可生成自动图 |
-| Follow.it | RSS 管理 | 已开始试用 |
+| Follow | RSS 管理 | 已开始试用 |
 | MonitorControl | 外接屏幕亮度调节 | 已安装 |
 
 ---
@@ -70,7 +70,7 @@ description: AI 工具演进趋势、Cursor + Claude Code 实战探索、系统�
 
 | 当前状态 | 建议升级路径 |
 |----------|----------------|
-| Github Copilot + ChatGPT | 逐步过渡到 Cursor + Claude Code 双持 |
+| Github Copilot + ChatGPT | 试用 Cursor + Claude Code 双持 |
 | 工具碎片化 | 整合 Notion / Task / Review 三类工具流程 |
 | 情绪波动 | 构建复盘机制 + 情绪记录模块（如每日一句） |
 
