@@ -96,6 +96,3 @@ npm install -g npm@11.4.2
 ---
 
 **Embrace performance. Optimize flow. Simplify systems.** ⚙️
-```
-
----
